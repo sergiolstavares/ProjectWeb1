@@ -5,27 +5,27 @@ db.transaction(function(tx){
 })
 
 function redirect() {
-  window.location.href= "/src/lista.html"
+  window.location.href= "/lista.html"
 }
 
 function interestelarRedirect() {
-  window.location.href= "/src/interestelar.html"
+  window.location.href= "/interestelar.html"
 }
 
 function vinciCodeRedirect() {
-  window.location.href= "/src/vinciCode.html"
+  window.location.href= "/vinciCode.html"
 }
 
 function redirectLogin() {
-  window.location.href= "/src/index.html"
+  window.location.href= "/index.html"
 }
 
 function redirectSobre() {
-  window.location.href= "/src/sobre.html"
+  window.location.href= "/sobre.html"
 }
 
 function redirectCadastro() {
-  window.location.href= "/src/cadastro.html"
+  window.location.href= "/cadastro.html"
 }
 
 function validarCampos() {
