@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <title>Sobre Nós</title>
+</head>
+<body>
+  <div>
+    <h1>Quem Somos?</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel
+      tellus laoreet, varius odio ac, pharetra nunc. Sed quis eleifend velit. <br>
+      Morbi at scelerisque mi. Fusce nisi neque, fermentum ac euismod in, porttitor non velit. <br>
+      Nulla id nulla turpis. Phasellus dictum viverra urna, quis finibus ligula interdum sed. Sed in dolor augue.<br>
+      Morbi ullamcorper purus vel tellus pellentesque, id eleifend mi vulputate.<br>
+    </p>
+  </div>
+  <div>
+    <h2>Onde Estamos Localizados?</h2>
+    <iframe id="iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.515056446325!2d-34.86101878471013!3d-7.94560588135337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3dbf4a9cd5f1%3A0x45bf1641ad29a799!2sIFPE-%20Intituto%20Federal%20De%20Pernambuco%20%2C%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1642767327871!5m2!1spt-BR!2sbr" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <button onClick="redirectLogin()">Voltar</button>
+  <div id=footer></div>
+</body>
+<script src="../script.js"></script>
+<script>
+  $(function () {
+     $("#header").load("header.html");
+     $("#footer").load("footer.html");
+  });
+</script>
+</html>

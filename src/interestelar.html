@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="/style.css" rel="stylesheet">
+  <title>Interestelar</title>
+
+</head>
+<body>
+  <div id=header></div>
+  <div>
+    <h1>INTERESTELAR</h1>
+    <section>
+      <div class="iframe">
+        <iframe width="460" height="300" src="https://www.youtube.com/embed/frD_IiY_A3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    
+      <ul>
+        <h2>Generos</h2>
+        <li>Ficção</li>
+        <li>Ação</li>
+        <li>Aventura</li>
+        <li>Futurista</li>
+      </ul>
+  
+      <h2 id="valor">Valor: R$ 7,00</h2>
+  
+      <button onClick="redirect()">Voltar</button>
+    
+    </section>
+
+  </div>
+  <div id=footer></div>
+
+</body>
+<script src="../script.js"></script>
+<script>
+  $(function () {
+     $("#header").load("header.html");
+     $("#footer").load("footer.html");
+  });
+</script>
+</html>

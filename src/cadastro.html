@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <title>Cadastre-se</title>
+</head>
+<body>
+  <h1>Cadastre-se</h1>
+  <div id="cadastro">
+    <input class="input" type="text" id="name" placeholder="Nome"> <br>
+    <input class="input" type="email" id="email" placeholder="Email"><br>
+    <input class="input" type="password" id="password" placeholder="Senha"><br>
+    <button onClick="cadastrar()">Cadastrar</button>
+    <p id="alert"></p>
+  </div>
+  <button id="button-voltar" onClick="redirectLogin()"> Voltar</button>
+  <div id="footer"></div>
+</body>
+<script src="../script.js"></script>
+<script>
+  $(function () {
+     $("#header").load("header.html");
+     $("#footer").load("footer.html");
+  });
+</script>
+</html>
